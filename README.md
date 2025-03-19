@@ -1,26 +1,69 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# modasha
-=======
-=======
->>>>>>> 92568becaf0cd877c45273123e3d48607699dcc9
-# demo_application
+# Modasha - Flutter UI Implementation
 
-A new Flutter project.
+Modasha is a Flutter project that transforms Figma designs into a fully functional Flutter application. This project emphasizes pixel-perfect UI implementation while ensuring responsiveness and performance.
 
-## Getting Started
+## Features
+- **Pixel-perfect UI**: Precisely replicates Figma designs.
+- **Responsive Layout**: Adapts seamlessly to different screen sizes.
+- **Clean Code Structure**: Follows best practices for maintainability.
+- **Cross-platform Support**: Works on both Android and iOS.
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps to set up and run the project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/rutviknakum/modasha_.git
+   ```
+2. **Navigate to the Project Directory**
+   ```bash
+   cd modasha_
+   ```
+3. **Install Dependencies**
+   ```bash
+   flutter pub get
+   ```
+4. **Run the Application**
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-<<<<<<< HEAD
->>>>>>> 92568be (Initial commit)
-=======
->>>>>>> 92568becaf0cd877c45273123e3d48607699dcc9
+## Folder Structure
+```
+modasha_
+│-- lib/
+│   │-- main.dart          # Application entry point
+│   │-- screens/           # UI screens
+│   │-- widgets/           # Reusable UI components
+│   │-- utils/             # Utility functions and constants
+│   │-- assets/            # Static resources (images, fonts, etc.)
+│-- pubspec.yaml          # Project dependencies and configurations
+```
+
+## Dependencies
+This project utilizes the following dependencies:
+- **flutter_svg**: Renders SVG images.
+- **google_fonts**: Integrates Google Fonts.
+- **provider**: Manages state efficiently (if applicable).
+
+To ensure all dependencies are installed, run:
+```bash
+flutter pub get
+```
+
+## Contribution Guidelines
+Want to contribute? Follow these steps:
+1. **Fork the repository** on GitHub.
+2. **Create a new branch** for your feature or fix.
+3. **Make necessary changes** and commit them.
+4. **Push the changes** to your fork.
+5. **Create a pull request** for review.
+
+## Contact
+For any queries, suggestions, or collaborations, feel free to reach out:
+- **LinkedIn**: [Rutvik B. Nakum](https://www.linkedin.com/in/rutvik-b-nakum-376707237)
+
+---
+**Maintainer**: Rutvik B. Nakum
+
